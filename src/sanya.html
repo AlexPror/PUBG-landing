@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    body {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1400px;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    .section {
+      background-color: blue;
+      padding: 6rem 0;
+      text-align: center;
+    }
+
+    .section__title {
+      font-size: 24px;
+      margin-bottom: 2rem;
+    }
+
+    .clients-section::before {
+      content: '';
+      background: url('') center center no-repeat;
+      background-size: contain;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 120px;
+      width: 100%;
+    }
+
+    .slider {
+      background-color: #fff;
+      max-width: 840px;
+      margin: 5rem auto 0;
+      min-height: 240px;
+      width: 100%;
+      position: relative;
+    }
+
+    .slider__item {
+      position: absolute;
+      visibility: hidden;
+      text-align: center;
+      opacity: 0;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      transition: .15s ease-in-out;
+    }
+
+    .slider__item--active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .slider__photo {
+      background-color: #eee;
+      width: 64px;
+      border-radius: 50%;
+      margin-top: -32px;
+      height: 64px;
+    }
+  </style>
+
+  <div class="clients-section section">
+    <div class="container">
+      <div class="section__title section__title--variant-1">
+        Что говорят о нас
+      </div>
+
+      <div class="slider">
+        <div class="slider__items">
+          <div class="slider__item slider__item--active">
+            <img src="" alt="" class="slider__photo">
+            <div class="slider__title">
+              111111
+            </div>
+            <div class="slider__text">
+              sdfsdfsdfsdf <br>
+              sdfsdfsdfsdfsdfsdf
+            </div>
+          </div>
+          <div class="slider__item">
+            <img src="" alt="" class="slider__photo">
+            <div class="slider__title">
+              222222222
+            </div>
+            <div class="slider__text">
+              sdfsdfsdfsdf <br>
+              sdfsdfsdfsdfsdfsdf
+            </div>
+          </div>
+          <div class="slider__item">
+            <img src="" alt="" class="slider__photo">
+            <div class="slider__title">
+              3333333
+            </div>
+            <div class="slider__text">
+              sdfsdfsdfsdf <br>
+              sdfsdfsdfsdfsdfsdf
+            </div>
+          </div>
+        </div>
+        <div class="slider__nav">
+          <div class="slider__prev">
+          </div>
+          <div class="slider__next">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
