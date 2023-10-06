@@ -1,9 +1,10 @@
 * {
-    // font-family: Montserrat, sans-serif;
+    font-family: Montserrat, sans-serif;
     margin: 0rem;
     border: 0;
     padding: 0;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 .container {
@@ -21,3 +22,4 @@
 
 @import 'blocks/buttons';
 @import 'blocks/title';
+@import 'blocks/slider';

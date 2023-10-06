@@ -1,11 +1,14 @@
 .promo__title {
+    h1 {
+        font-size: 4rem;
+    }
     color: #FFF;
     font-size: 3rem;
     font-weight: 800;
     text-transform: uppercase;
     .promo__title-icon {
         top: 11.5rem;
-        left: 19.9%;
+        left: 13.9%;
         position: absolute;
     
     }
@@ -24,4 +27,5 @@
     font-size: 45px;
     font-weight: 800;
     text-transform: uppercase;
+    margin-left: 2rem;
 }

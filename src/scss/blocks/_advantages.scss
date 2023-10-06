@@ -1,3 +1,7 @@
+.advantages {
+    display: flex;
+    background: #F5F9FF;
+}
 //Left side
 .advantages__platforms-wrap{
     width: 50%;
@@ -59,6 +63,32 @@
 // Right side
 .advantages__descr {
     width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 4rem;
+.advantages__descr-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 4rem;
+    
+    &-red {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #FF3B3B;    
+        width: 18rem;
+    }
+    &--margin {
+        margin-left: 1rem;
+    }
+}
+   
 }
 
 .advantages__descr-unichite {
@@ -66,4 +96,39 @@
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+    margin: 1.5rem 0 4rem 0;
+    
+}
+
+.advantages__descr-list {
+    color: #2E3A59;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 4rem;
+    ul{
+        list-style-image: url(/src/icons/fuctional/romb.svg);
+        margin-left: 2rem;
+    }
+    span {
+        color: #2E3A59;
+        text-align: justify;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    
+}
+.advantages__descr-warning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 2rem 4rem 2rem 1rem;
+    background-color: #fff;
+    color: #828282;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 400;
+    &--icon {
+        margin-right: 1rem;
+    }
 }

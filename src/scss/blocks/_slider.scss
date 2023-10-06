@@ -1,0 +1,110 @@
+.clients-section {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(/src/img/comments/wave_second.png) center center/cover no-repeat;
+    background: linear-gradient(113deg, #1A47EA 3.44%, #82E9FF 96.25%);
+    width: 100%;
+    position: relative;
+}
+
+.clients-section__wave {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.clients-section__title {
+    margin-top: 10rem;
+    color: #FFF;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.clients-section__title-icon {
+    top: 9rem;
+    left: 15%;
+    position: absolute;
+}
+
+.slider__item {
+    color: #2E3A59;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.slider__item-subtitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    z-index: 10;
+    padding: 0.9rem 0 1.1rem 0;
+}
+
+.slider__item-photo {
+    position: absolute;
+    top: -2.5rem;
+    left: 42%;
+}
+
+.clients-section__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 8rem 3rem 8rem;
+    background-color: #FFF;
+    position: relative;
+    margin-top: 5rem;
+    flex-direction: column;
+}
+
+.rhomb__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    height: 115px;
+    transform: rotate(-45deg);
+    position: absolute;
+    border-radius: 15px;
+    background: linear-gradient(103deg, #0AA6FE -49.1%, #05FFFF 177.15%);
+    box-shadow: 0px 0px 25px 0px rgba(0, 50, 180, 0.30) inset, 0px 4px 25px 0px rgba(10, 166, 254, 0.48);
+    top: 5.5rem;
+    right: -7.2%;
+
+    .shevron__right {
+        transform: rotate(40deg);
+        margin-left: 0.5rem;
+        }
+    
+}
+
+.rhomb__left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    height: 115px;
+    transform: rotate(-45deg);
+    position: absolute;
+    border-radius: 15px;
+    background: linear-gradient(103deg, #0AA6FE -49.1%, #05FFFF 177.15%);
+    box-shadow: 0px 0px 25px 0px rgba(0, 50, 180, 0.30) inset, 0px 4px 25px 0px rgba(10, 166, 254, 0.48);
+    top: 5.5rem;
+    left: -7.2%;
+    
+    .shevron__left {
+        transform: rotate(40deg);
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+}

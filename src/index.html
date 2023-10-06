@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PUBG</title>
-    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="/src/font/stylesheet.css" />
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
@@ -118,7 +118,7 @@
           Самая низкая цена за мегахеш
         </div>
         <div class="promo__btn">
-          <button href="#" class="button promo__btn--style">
+          <button href="#" class="button button--buy">
             Купить
             <img
               src="/src/icons/arrow_right.svg"
@@ -126,7 +126,7 @@
               class="promo__btn--margin"
             />
           </button>
-          <button href="#" class="button promo__btn--background">
+          <button href="#" class="button button--video">
             Посмотреть видео
           </button>
         </div>
@@ -262,12 +262,134 @@
       <div class="advantages__descr">
         <div class="advantages__descr-title">Функционал</div>
         <div class="advantages__descr-unichite">
-          Уникальный чит на iOS подойдет для всех устройств начиная от айфона
-          4S+.
+          Уникальный чит на iOS подойдет для всех устройств <br />
+          начиная от айфона 4S+.
         </div>
-        <div class="advantages__descr-list"></div>
-        <div class="advantages__descr-warning"></div>
-        <div class="advantages__descr-btn"></div>
+        <div class="advantages__descr-list">
+          <ul>
+            <li>
+              <span>WallHack</span> - обнаруживает противников сквозь стены.
+            </li>
+            <li><span>AntiRecoil</span> - отключает отдачу на любом оружие.</li>
+            <li>
+              <span>Aimbot</span> - автоматически наводит прицел на противника.
+            </li>
+            <li><span>Drop</span> - показывает топовые вещи сквозь стены.</li>
+          </ul>
+        </div>
+        <div class="advantages__descr-warning">
+          <img
+            src="/src/icons/warning.svg"
+            alt="warning"
+            class="advantages__descr-warning--icon"
+          />Рекомендуем, оставить стандартные параметры в чите
+        </div>
+        <div class="advantages__descr-btn">
+          <button href="#" class="button button--buy">
+            Купить
+            <img
+              src="/src/icons/arrow_right.svg"
+              alt="arrow"
+              class="promo__btn--margin"
+            />
+          </button>
+          <button
+            href="#"
+            class="button button--video advantages__descr-btn-red"
+          >
+            Посмотреть видео
+            <img
+              src="/src/icons/fuctional/play.svg"
+              alt="play"
+              class="advantages__descr-btn--margin"
+            />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="clients-section">
+      <img
+        class="clients-section__wave"
+        src="img/comments/wave_second.png"
+        alt=""
+      />
+      <div class="clients-section__container">
+        <div class="clients-section__title">
+          <svg
+            class="slider__title-icon"
+            width="46"
+            height="46"
+            viewBox="0 0 46 46"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              y="28.4436"
+              width="40.2252"
+              height="8.04505"
+              transform="rotate(-45 0 28.4436)"
+              fill="#FB8500"
+            />
+            <rect
+              x="11.377"
+              y="39.821"
+              width="40.2252"
+              height="8.04505"
+              transform="rotate(-45 11.377 39.821)"
+              fill="#FB8500"
+            />
+          </svg>
+          Что говорят о нас
+        </div>
+
+        <div class="slider">
+            <div class="slider__item">
+              <img
+                src="img/comments/person_1.png"
+                alt="photo_1"
+                class="slider__item-photo"
+              />
+              <div class="slider__item-subtitle">Егор Черняев</div>
+              <div class="slider__item-descr">
+                Рекомендую данный софт! Аналогов не нашел нигде, я решил не<br />
+                заморачиваться и сразу приобрел ПРО версию и <br />
+                теперь играю в свое удовольствие.
+              </div>
+
+              <div class="rhomb__right">
+                <svg
+                  class="shevron__right"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="36"
+                  viewBox="0 0 20 36"
+                  fill="none"
+                >
+                  <path
+                    d="M2.85859 36L20 18L2.85859 0L0 2.99965L14.2869 18L0 33.0004L2.85859 36Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+              <div class="rhomb__left">
+                <svg
+                  class="shevron__left"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="21"
+                  height="37"
+                  viewBox="0 0 21 37"
+                  fill="none"
+                >
+                  <path
+                    d="M17.7762 0.634764L0.634767 18.6348L17.7762 36.6348L20.6348 33.6351L6.3479 18.6348L20.6348 3.63441L17.7762 0.634764Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
