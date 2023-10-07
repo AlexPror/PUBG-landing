@@ -1,0 +1,41 @@
+.button {
+    border-radius: 5px;
+    background: linear-gradient(99deg, #FF9B05 25.06%, #FF8F3F 88.94%);
+    box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.08);
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.1rem;
+    font-weight: 600;
+    
+    padding: 1.7rem 3rem;
+}
+
+.contact__btn {
+    border-radius: 5px;
+    background: linear-gradient(99deg, #FF9B05 25.06%, #FF8F3F 88.94%);
+    box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.08);
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+}
+.promo__btn{
+    &--background {
+        margin-left: 2rem;
+        width: 16rem;
+        border: 1px solid #A9EAFF;
+        background:rgba(0, 0, 0, 0);
+}
+    &--style {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .promo__btn--margin {
+            margin-left: 2rem;
+        }
+}
+}
+
+.btn {
+    background: orange;
+}
+
