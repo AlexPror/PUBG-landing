@@ -1,0 +1,69 @@
+//Left side
+.advantages__platforms-wrap{
+    width: 50%;
+}
+
+.advantages__platforms {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2rem 10rem 0 20.5rem;
+}
+
+.advantages__btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    color: #AAA;
+    font-size: 1.125rem;
+    font-weight: 700;
+    border-radius: 0.3rem;
+    background: #FFF;
+    box-shadow: 0 15px 25px rgba(#000, 0.03);
+    padding: 1.625rem 2rem 1.625rem 1.5rem;
+    margin-right: 1rem;
+
+    &:last-child {
+        margin-right: none;
+    }
+}
+
+.advantages__btn-icon {
+    margin-right: 1rem;
+}
+
+.advantages__carousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantages__phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      &--left-btn {
+         margin-left: 2rem;   
+    }
+}
+
+.advantages__phone-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 3rem;
+    
+}
+
+// Right side
+.advantages__descr {
+    width: 50%;
+}
+
+.advantages__descr-unichite {
+    color: #828282;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
