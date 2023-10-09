@@ -1,4 +1,7 @@
 .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 5px;
     background: linear-gradient(99deg, #FF9B05 25.06%, #FF8F3F 88.94%);
     box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.08);
@@ -7,6 +10,7 @@
     font-size: 1.1rem;
     font-weight: 600;
     padding: 1.7rem 1.5rem;
+    cursor: pointer;
     &--video {
         margin-left: 2rem;
         width: 18rem;
@@ -22,6 +26,11 @@
         .promo__btn--margin {
             margin-left: 2rem;
         }
+    }
+    &--tariffs {
+        border-radius:  0 0 5px 55px;
+        width: 416px;
+        height: 76px;
     }
 
 }

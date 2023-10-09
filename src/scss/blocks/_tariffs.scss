@@ -1,6 +1,101 @@
-.clients-tariffs {
-    background: #F5F9FF;
+.tariffs-section {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #F5F9FF;
+}
+
+.tariffs-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.tariff-divider {
+    width: 82.25rem;
+    height: 0.1rem;
+    background:#000;
+}
+
+.tariffs-card {
+    width: 100%;
+    margin-top: 1rem;
+
+}
+
+.tariffs-card-user {
+    width: 33.333%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px 55px;
+    background: #FFF;
+    box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.05);
+    
+}
+    
+.tariff-user {
+    width: 26rem;
+    height: 4.75rem;
+    border-radius: 5px 55px 0 55px;
+    background: linear-gradient(103deg, #05FFFF -7.39%, #0AA6FE 85.9%);
+    box-shadow: 0 20px 35px rgba(#000, 0.05);
+    color: #FFF;
+    font-size: 1.31rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tariff-subtitle {
+    color: #2E3A59;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 2rem 0;
+}
+
+.tariff-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #2E3A59;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 3rem;
+    list-style-type: none;
+    .green-tick {
+        list-style-image: url(/src/icons/tariffs/tick.svg);
+    }
+    .red-cross {
+        list-style-image: url(/src/icons/tariffs/red_cross.svg);
+    }
+}
+
+.tariff-user-price {
+    color: #2E3A59;
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 1.5rem 0;
+    position: relative;
+    .tariff-rur {
+        padding: 1.25rem 1.5rem;
+        position: absolute;
+    }
+}
+
+
+
+
+
+.tariffs-card-standart {
+    width: 33.333%;
+}
+
+.tariffs-card-pro {
+    width: 33.333%;
 }
