@@ -167,7 +167,7 @@
       </svg>
     </section>
 
-    <section class="advantages">
+    <section class="advantages-section">
       <div class="advantages__platforms-wrap">
         <div class="advantages__platforms">
           <button class="advantages__btn" type="button">
@@ -260,7 +260,7 @@
         </div>
       </div>
       <div class="advantages__descr">
-        <div class="advantages__descr-title">Функционал</div>
+        <div class="section__title section__title--advantages">Функционал</div>
         <div class="advantages__descr-unichite">
           Уникальный чит на iOS подойдет для всех устройств <br />
           начиная от айфона 4S+.
@@ -309,90 +309,136 @@
     </section>
 
     <section class="clients-section">
-      <img
+      <div class="container">
+        <img
         class="clients-section__wave"
         src="img/comments/wave_second.png"
         alt=""
       />
-      <div class="clients-section__container">
-        <div class="clients-section__title">
-          <svg
-            class="slider__title-icon"
-            width="46"
-            height="46"
-            viewBox="0 0 46 46"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <rect
-              y="28.4436"
-              width="40.2252"
-              height="8.04505"
-              transform="rotate(-45 0 28.4436)"
-              fill="#FB8500"
-            />
-            <rect
-              x="11.377"
-              y="39.821"
-              width="40.2252"
-              height="8.04505"
-              transform="rotate(-45 11.377 39.821)"
-              fill="#FB8500"
-            />
-          </svg>
-          Что говорят о нас
-        </div>
+        <h2 class="section__title section__title--clients-slider">
+        <svg
+          class="section__title--icon"
+          width="46"
+          height="46"
+          viewBox="0 0 46 46"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            y="28.4436"
+            width="40.2252"
+            height="8.04505"
+            transform="rotate(-45 0 28.4436)"
+            fill="#FB8500"
+          />
+          <rect
+            x="11.377"
+            y="39.821"
+            width="40.2252"
+            height="8.04505"
+            transform="rotate(-45 11.377 39.821)"
+            fill="#FB8500"
+          />
+        </svg>
+        Что говорят о нас
+      </h2>
 
-        <div class="slider">
-            <div class="slider__item">
-              <img
-                src="img/comments/person_1.png"
-                alt="photo_1"
-                class="slider__item-photo"
-              />
-              <div class="slider__item-subtitle">Егор Черняев</div>
-              <div class="slider__item-descr">
-                Рекомендую данный софт! Аналогов не нашел нигде, я решил не<br />
-                заморачиваться и сразу приобрел ПРО версию и <br />
-                теперь играю в свое удовольствие.
-              </div>
-
-              <div class="rhomb__right">
-                <svg
-                  class="shevron__right"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="36"
-                  viewBox="0 0 20 36"
-                  fill="none"
-                >
-                  <path
-                    d="M2.85859 36L20 18L2.85859 0L0 2.99965L14.2869 18L0 33.0004L2.85859 36Z"
-                    fill="white"
-                  />
-                </svg>
-              </div>
-              <div class="rhomb__left">
-                <svg
-                  class="shevron__left"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="21"
-                  height="37"
-                  viewBox="0 0 21 37"
-                  fill="none"
-                >
-                  <path
-                    d="M17.7762 0.634764L0.634767 18.6348L17.7762 36.6348L20.6348 33.6351L6.3479 18.6348L20.6348 3.63441L17.7762 0.634764Z"
-                    fill="white"
-                  />
-                </svg>
-              </div>
+      <div class="slider">
+          <div class="slider__item slider__item--active">
+            <img
+              class="slider__item-photo"
+              src="img/comments/person_1.png"
+              alt="photo_1"
+            />
+            <img src="img/comments/kovichki_up.png" alt="" class="slider__item-up">
+            <img src="img/comments/kovichki_down.png" alt="" class="slider__item-down">
+            <h3 class="slider__item-subtitle">Егор Черняев
+            </h3>
+            <div class="slider__item-descr">
+              Рекомендую данный софт! Аналогов не нашел нигде, я решил не<br />
+              заморачиваться и сразу приобрел ПРО версию и <br />
+              теперь играю в свое удовольствие.
             </div>
           </div>
-        </div>
+
+          <div class="slider__item">
+            <img
+              class="slider__item-photo"
+              src="img/comments/person_1.png"
+              alt="photo_1"
+            />
+            <img src="img/comments/kovichki_up.png" alt="" class="slider__item-up">
+            <img src="img/comments/kovichki_down.png" alt="" class="slider__item-down">
+            <h3 class="slider__item-subtitle">Василий Васильев
+            </h3>
+            <div class="slider__item-descr">
+              Рекомендую данный софт! Аналогов не нашел нигде, я решил не<br />
+              заморачиваться и сразу приобрел ПРО версию и <br />
+              теперь играю в свое удовольствие.
+            </div>
+          </div>
+
+          <div class="slider__item">
+            <img
+              class="slider__item-photo"
+              src="img/comments/person_1.png"
+              alt="photo_1"
+            />
+            <img src="img/comments/kovichki_up.png" alt="" class="slider__item-up">
+            <img src="img/comments/kovichki_down.png" alt="" class="slider__item-down">
+            <h3 class="slider__item-subtitle"> Иван Иванов
+            </h3>
+            <div class="slider__item-descr">
+              Рекомендую данный софт! Аналогов не нашел нигде, я решил не<br />
+              заморачиваться и сразу приобрел ПРО версию и <br />
+              теперь играю в свое удовольствие.
+            </div>
+          </div>
+
+            <button class="slider__btn-next">
+              <svg
+                class="shevron__right"
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="36"
+                viewBox="0 0 20 36"
+                fill="none"
+              >
+                <path
+                  d="M2.85859 36L20 18L2.85859 0L0 2.99965L14.2869 18L0 33.0004L2.85859 36Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+            <button class="slider__btn-prev">
+              <svg
+                class="shevron__left"
+                xmlns="http://www.w3.org/2000/svg"
+                width="21"
+                height="37"
+                viewBox="0 0 21 37"
+                fill="none"
+              >
+                <path
+                  d="M17.7762 0.634764L0.634767 18.6348L17.7762 36.6348L20.6348 33.6351L6.3479 18.6348L20.6348 3.63441L17.7762 0.634764Z"
+                  fill="white"
+                />
+              </svg>
+              </button>
+      </div>
+    </section>
+
+    <section class="clients-tariffs">
+      <div class="container">
+        <div class="tariffs">
+          <h2 class="section__title section__title--tariff"> <img src="icons/dash.svg" alt=""> Тарифы
+          <img src="icons/dash.svg" alt=""></div>
+        
       </div>
     </section>
 
     <footer class="footer"></footer>
+
+    <script src="./js/script.js"></script>  
   </body>
 </html>

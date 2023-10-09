@@ -22,10 +22,26 @@
     font-weight: 800;
 }
 
-.advantages__descr-title {
-    color: #2E3A59;
-    font-size: 45px;
-    font-weight: 800;
-    text-transform: uppercase;
-    margin-left: 2rem;
+.section__title {
+    &--clients-slider {
+        position: relative;
+        margin-top: 10rem;
+        color: #FFF;
+        font-size: 3.5rem;
+        font-weight: 800;
+    }
+    
+    &--icon {
+        padding: 0;
+        top: -1rem;
+        left: 27%;
+    }
+
+    &--tariff, &--advantages {
+        color: #2E3A59;
+        font-size: 3rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin-left: 2rem;
+    }
 }
