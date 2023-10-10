@@ -1,86 +1,80 @@
 .button {
-    display: flex;
     align-items: center;
-    justify-content: center;
-    border-radius: 5px;
     background: linear-gradient(99deg, #FF9B05 25.06%, #FF8F3F 88.94%);
+    border-radius: 5px;
     box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.08);
     color: #FFF;
+    cursor: pointer;
+    display: flex;
     font-family: Montserrat;
     font-size: 1.1rem;
     font-weight: 600;
+    justify-content: center;
     padding: 1.7rem 1.5rem;
-    cursor: pointer;
     &--video {
+        background:rgba(0, 0, 0, 0);
+        border: 1px solid #A9EAFF;
         margin-left: 2rem;
         width: 18rem;
-        border: 1px solid #A9EAFF;
-        background:rgba(0, 0, 0, 0);
-        
+
     }
 
     &--buy {
+        align-items: center;
         display: flex;
         flex-direction: row;
-        align-items: center;
         .promo__btn--margin {
             margin-left: 2rem;
         }
     }
-    &--tariffs {
-        border-radius:  0 0 5px 55px;
-        width: 416px;
-        height: 76px;
-    }
 
 }
-    
+
 .contact__btn {
-    border-radius: 5px;
     background: linear-gradient(99deg, #FF9B05 25.06%, #FF8F3F 88.94%);
+    border-radius: 5px;
     box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.08);
-    padding: 1rem 1.5rem;
     cursor: pointer;
+    padding: 1rem 1.5rem;
 }
 
 .slider__btn-next {
-    display: flex;
     align-items: center;
-    justify-content: center;
-    width: 115px;
-    height: 115px;
-    transform: rotate(-45deg);
-    position: absolute;
-    border-radius: 15px;
     background: linear-gradient(103deg, #0AA6FE -49.1%, #05FFFF 177.15%);
+    border-radius: 15px;
     box-shadow: 0px 0px 25px 0px rgba(0, 50, 180, 0.30) inset, 0px 4px 25px 0px rgba(10, 166, 254, 0.48);
-    top: 4rem;
+    display: flex;
+    height: 115px;
+    justify-content: center;
+    position: absolute;
     right: -7.2%;
+    top: 4rem;
+    transform: rotate(-45deg);
+    width: 115px;
 
     .shevron__right {
-        transform: rotate(40deg);
         margin-left: 0.5rem;
-        }
-    
+        transform: rotate(40deg);
+    }
 }
 
 .slider__btn-prev {
-    display: flex;
     align-items: center;
-    justify-content: center;
-    width: 115px;
-    height: 115px;
-    transform: rotate(-45deg);
-    position: absolute;
-    border-radius: 15px;
     background: linear-gradient(103deg, #0AA6FE -49.1%, #05FFFF 177.15%);
+    border-radius: 15px;
     box-shadow: 0px 0px 25px 0px rgba(0, 50, 180, 0.30) inset, 0px 4px 25px 0px rgba(10, 166, 254, 0.48);
-    top: 4rem;
+    display: flex;
+    height: 115px;
+    justify-content: center;
     left: -7.2%;
-    
+    position: absolute;
+    top: 4rem;
+    transform: rotate(-45deg);
+    width: 115px;
+
     .shevron__left {
-        transform: rotate(40deg);
-        margin-right: 0.5rem;
         margin-bottom: 0.5rem;
+        margin-right: 0.5rem;
+        transform: rotate(40deg);
     }
 }

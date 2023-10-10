@@ -1,18 +1,18 @@
 .promo__title {
-    h1 {
-        font-size: 4rem;
-    }
     color: #FFF;
     font-size: 3rem;
     font-weight: 800;
     text-transform: uppercase;
-    .promo__title-icon {
-        top: 11.5rem;
-        left: 13.9%;
-        position: absolute;
-    
+
+    h1 {
+        font-size: 4rem;
     }
 
+    .promo__title-icon {
+        left: 13.9%;
+        position: absolute;
+        top: 11.5rem;
+    }
 }
 
 .promo__subtitle {
@@ -24,24 +24,24 @@
 
 .section__title {
     &--clients-slider {
-        position: relative;
-        margin-top: 10rem;
         color: #FFF;
         font-size: 3.5rem;
         font-weight: 800;
+        margin-top: 10rem;
+        position: relative;
     }
-    
+
     &--icon {
+        left: 27%;
         padding: 0;
         top: -1rem;
-        left: 27%;
     }
 
     &--tariff, &--advantages {
         color: #2E3A59;
         font-size: 3rem;
         font-weight: 800;
-        text-transform: uppercase;
         margin-left: 2rem;
+        text-transform: uppercase;
     }
 }

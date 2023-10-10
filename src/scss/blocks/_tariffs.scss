@@ -1,71 +1,71 @@
 .tariffs-section {
-    display: flex;
     align-items: center;
-    justify-content: center;
     background: #F5F9FF;
+    display: flex;
+    justify-content: center;
 }
 
 .tariffs-buttons {
-    display: flex;
     align-items: center;
-    justify-content: center;    
+    display: flex;
+    justify-content: center;
 }
 
 .tariff-divider {
-    width: 82.25rem;
-    height: 0.1rem;
     background:#000;
+    height: 0.1rem;
+    width: 82.25rem;
 }
 
 .tariffs-card {
-    width: 100%;
     margin-top: 1rem;
+    width: 100%;
 
 }
 
 .tariffs-card-user {
-    width: 33.333%;
-    display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 5px 55px;
     background: #FFF;
+    border-radius: 5px 55px;
     box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.05);
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 33.333%;
+
 }
-    
+
 .tariff-user {
-    width: 26rem;
-    height: 4.75rem;
-    border-radius: 5px 55px 0 55px;
+    align-items: center;
     background: linear-gradient(103deg, #05FFFF -7.39%, #0AA6FE 85.9%);
+    border-radius: 5px 55px 0 55px;
     box-shadow: 0 20px 35px rgba(#000, 0.05);
     color: #FFF;
+    display: flex;
     font-size: 1.31rem;
     font-weight: 600;
-    text-transform: uppercase;
-    display: flex;
+    height: 4.75rem;
     justify-content: center;
-    align-items: center;
+    text-transform: uppercase;
+    width: 26rem;
 }
 
 .tariff-subtitle {
     color: #2E3A59;
-    text-align: center;
     font-size: 2rem;
     font-weight: 600;
     margin: 2rem 0;
+    text-align: center;
 }
 
 .tariff-list {
-    display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
     color: #2E3A59;
+    display: flex;
+    flex-direction: column;
     font-size: 1.1rem;
     font-weight: 400;
+    justify-content: center;
     line-height: 3rem;
     list-style-type: none;
     .green-tick {
@@ -82,14 +82,12 @@
     font-weight: 600;
     margin: 1.5rem 0;
     position: relative;
+
     .tariff-rur {
         padding: 1.25rem 1.5rem;
         position: absolute;
     }
 }
-
-
-
 
 
 .tariffs-card-standart {

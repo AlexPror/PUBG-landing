@@ -1,0 +1,18 @@
+.section {
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+}
+
+.tariff-list {
+    list-style: none;
+}
+
+.tariff-list__item {
+    background: url('') 0 center no-repeat;
+    padding-left: 2rem;
+}
+
+.tariff-list__item--exclude {
+    background-image: url('');
+    background-position: 2px center;
+}
