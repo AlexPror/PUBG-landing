@@ -3,16 +3,51 @@
     align-items: center;
     justify-content: center;
     background: #F5F9FF;
+    padding-bottom: 3rem;
 }
+
+.tariffs-title {
+    color: #2E3A59;
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    margin-top: 6.75rem;
+    margin-bottom: 4rem;
+}
+
+.tariffs-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+.tariffs-title__icon {
+    position: absolute;
+    top: -2rem;
+    left: 38%;
+    &--down {
+        position: absolute;
+        top: 2rem;
+        left: 58%; 
+    }
+}
+
 
 .tariffs-buttons {
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
+    margin-bottom: 3rem; 
+    cursor: pointer;   
 }
 
 .tariff-divider {
-    width: 82.25rem;
+    width: 100%;
+    padding: 0;
     height: 0.1rem;
     background:#000;
 }
@@ -20,7 +55,7 @@
 .tariffs-card {
     width: 100%;
     margin-top: 1rem;
-
+    display: flex;
 }
 
 .tariffs-card-user {
@@ -32,11 +67,11 @@
     border-radius: 5px 55px;
     background: #FFF;
     box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.05);
-    
+    margin-right: 2rem;
 }
     
-.tariff-user {
-    width: 26rem;
+.tariff-subscription {
+    width: 100%;
     height: 4.75rem;
     border-radius: 5px 55px 0 55px;
     background: linear-gradient(103deg, #05FFFF -7.39%, #0AA6FE 85.9%);
@@ -48,6 +83,37 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    &--standart {
+        width: 100%;
+        height: 4.75rem;
+        border-radius: 5px 55px 0px 55px;
+        background: linear-gradient(89deg, #DDA6FF -5.85%, #D828F4 106.28%);
+        color: #FFF;
+        font-size: 1.31rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    &--pro {
+        border-radius: 5px 55px 0px 55px;
+        background: linear-gradient(99deg, #FF9898 14.64%, #FF1F00 102.27%);
+        box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.05);
+        color: #FFF;
+        font-size: 1.31rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        width: 100%;
+        height: 4.75rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
 }
 
 .tariff-subtitle {
@@ -59,21 +125,26 @@
 }
 
 .tariff-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     color: #2E3A59;
     font-size: 1.1rem;
     font-weight: 400;
     line-height: 3rem;
     list-style-type: none;
-    .green-tick {
-        list-style-image: url(/src/icons/tariffs/tick.svg);
-    }
-    .red-cross {
-        list-style-image: url(/src/icons/tariffs/red_cross.svg);
-    }
+    position: relative;
+}
+
+.tariff-card__list, .tariff-card__list-red {
+    list-style-type: none;
+}
+
+.tariff-card__item {
+    background: url(/src/icons/tariffs/tick.svg) 0 center no-repeat;
+    padding-left: 2rem;
+}
+
+.tariff-card__item-red {
+    background: url(/src/icons/tariffs/red_cross.svg) 0 center no-repeat;
+    padding-left: 2rem;
 }
 
 .tariff-user-price {
@@ -82,20 +153,36 @@
     font-weight: 600;
     margin: 1.5rem 0;
     position: relative;
-    .tariff-rur {
-        padding: 1.25rem 1.5rem;
+    .rub {
+        color: #2E3A59;
+        font-size: 35px;
+        font-weight: 500;
+        padding-left: 1.5rem;
+        padding-bottom: 1.25rem;
         position: absolute;
     }
 }
 
-
-
-
-
 .tariffs-card-standart {
     width: 33.333%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px 55px;
+    background: #FFF;
+    box-shadow: 0 20px 35px rgba(#000, 0.05);
+
 }
 
 .tariffs-card-pro {
     width: 33.333%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px 55px;
+    background: #FFF;
+    box-shadow: 0 20px 35px  rgba(#000, 0.05);
+    margin-left: 2rem;
 }

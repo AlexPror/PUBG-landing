@@ -29,8 +29,8 @@
     }
     &--tariffs {
         border-radius:  0 0 5px 55px;
-        width: 416px;
-        height: 76px;
+        width: 100%;
+        height: 4.75rem;
     }
 
 }
@@ -83,4 +83,9 @@
         margin-right: 0.5rem;
         margin-bottom: 0.5rem;
     }
+}
+
+.btn--active:hover {
+    background: linear-gradient(83deg, #0AA6FE 37.16%, #05FFFF 163.86%);
+    box-shadow: 0 15px 25px rgba(0, 163, 255, 0.30);
 }

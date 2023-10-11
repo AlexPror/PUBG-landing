@@ -170,26 +170,23 @@
     <section class="advantages-section">
       <div class="advantages__platforms-wrap">
         <div class="advantages__platforms">
-          <button class="advantages__btn" type="button">
+          <button class="advantages__btn btn--active" type="button">
             <img
               src="/src/icons/fuctional/windows.svg"
               alt="Windows"
-              class="advantages__btn-icon"
+              class="advantages__btn-windows"
             />Windows
           </button>
-          <button class="advantages__btn" type="button">
+          <button class="advantages__btn btn--active" type="button">
             <img
               src="/src/icons/fuctional/android.svg"
               alt="Android"
-              class="advantages__btn-icon"
+              class="advantages__btn-android"
             />Android
           </button>
-          <button class="advantages__btn" type="button">
-            <img
-              src="/src/icons/fuctional/aple.svg"
-              alt="iOS"
-              class="advantages__btn-icon"
-            />iOS
+          <button class="advantages__btn btn--active" type="button">
+            <img src="/src/icons/fuctional/windows.svg" alt="" class="advantages__btn-iOS">
+            iOS
           </button>
         </div>
 
@@ -432,56 +429,52 @@
       <div class="container">
 
         <div class="tariffs-title">
-          <h2 class="section__title section__title--tariffs"> 
-          <img src="icons/dash.svg" alt=""> Тарифы
-          <img src="icons/dash.svg" alt="">
+          <div class="section__title section__title--tariffs"> 
+          <img src="icons/dash.svg" alt="" class="tariffs-title__icon"> Тарифы
+          <img src="icons/dash.svg" alt="" class="tariffs-title__icon--down"></div>
         </div>
 
-        <div class="tariffs-buttons">
-          <button class="advantages__btn" type="button">
+        <div class="tariffs-btn">
+          <button class="advantages__btn btn--active" type="button">
             <img
               src="/src/icons/fuctional/windows.svg"
               alt="Windows"
-              class="advantages__btn-icon"
+              class="advantages__btn-windows"
             />Windows
           </button>
-          <button class="advantages__btn" type="button">
+          <button class="advantages__btn btn--active" type="button">
             <img
               src="/src/icons/fuctional/android.svg"
               alt="Android"
-              class="advantages__btn-icon"
+              class="advantages__btn-android"
             />Android
           </button>
-          <button class="advantages__btn" type="button">
-            <img
-              src="/src/icons/fuctional/aple.svg"
-              alt="iOS"
-              class="advantages__btn-icon"
-            />iOS
+          <button class="advantages__btn btn--active" type="button">
+            <img src="/src/icons/fuctional/windows.svg" alt="" class="advantages__btn-iOS">
+            iOS
           </button>
         </div>
-        
         <div class="tariff-divider"></div>
 
         <div class="tariffs-card">
 
           <div class="tariffs-card-user">
-            <div class="tariff-user">Обычная</div>
+            <div class="tariff-subscription">Обычная</div>
             <div class="tariff-subtitle">1 месяц</div>
             <div class="tariff-list">
-              <ul class="green-tick">
-                <li>Весь функционал чита</li>
-                <li>Обновления 1 раз в месяц</li>
-                <li>Техническая поддержка</li>
-                <li>Анти-Бан</li>
+              <ul class="tariff-card__list">
+                <li class="tariff-card__item">Весь функционал чита</li>
+                <li class="tariff-card__item">Обновления 1 раз в месяц</li>
+                <li class="tariff-card__item">Техническая поддержка</li>
+                <li class="tariff-card__item">Анти-Бан</li>
               </ul>
-              <ul class="red-cross">
-                <li>Улучшенная оптимизация</li>
-                <li>Запуск на других телефонах</li>
-                <li>DPI+,  ASN, SKK</li>
+              <ul class="tariff-card__list-red">
+                <li class="tariff-card__item-red">Запуск на других телефонах</li>
+                <li class="tariff-card__item-red">DPI+,  ASN, SKK</li>
+                <li class="tariff-card__item-red">Улучшенная оптимизация</li>
               </ul>
             </div>
-            <div class="tariff-user-price">649 <img src="img/tariffs/₽.png" alt="" class="tariff-rur"></div>
+            <div class="tariff-user-price">649 <span class="rub">₽</span></div>
             <button href="#" class="button button--tariffs">
               Приобрести
               <img
@@ -492,8 +485,57 @@
             </button>
           </div>
 
-          <div class="tariffs-card-standart"></div>
-          <div class="tariffs-card-pro"></div>
+          <div class="tariffs-card-standart">
+            <div class="tariff-subscription--standart">Стандартная</div>
+            <div class="tariff-subtitle">3 месяца</div>
+            <div class="tariff-list">
+              <ul class="tariff-card__list">
+                <li class="tariff-card__item">Весь функционал чита</li>
+                <li class="tariff-card__item">Обновления 1 раз в месяц</li>
+                <li class="tariff-card__item">Техническая поддержка</li>
+                <li class="tariff-card__item">Анти-Бан</li>
+                <li class="tariff-card__item">Запуск на других телефонах</li>
+                <li class="tariff-card__item">DPI+,  ASN, SKK</li>
+              </ul>
+              <ul class="tariff-card__list-red">
+                <li class="tariff-card__item-red">Улучшенная оптимизация</li>
+              </ul>
+            </div>
+            <div class="tariff-user-price">1499 <span class="rub">₽</span></div>
+            <button href="#" class="button button--tariffs">
+              Приобрести
+              <img
+                src="/src/icons/arrow_right.svg"
+                alt="arrow"
+                class="tariffs__btn--margin"
+              />
+            </button>
+          </div>
+
+          <div class="tariffs-card-pro">
+            <div class="tariff-subscription--pro">Pro версия</div>
+            <div class="tariff-subtitle">Навсегда</div>
+            <div class="tariff-list">
+              <ul class="tariff-card__list">
+                <li class="tariff-card__item">Весь функционал чита</li>
+                <li class="tariff-card__item">Обновления 1 раз в месяц</li>
+                <li class="tariff-card__item">Техническая поддержка</li>
+                <li class="tariff-card__item">Анти-Бан</li>
+                <li class="tariff-card__item">Запуск на других телефонах</li>
+                <li class="tariff-card__item">DPI+,  ASN, SKK</li>
+                <li class="tariff-card__item">Улучшенная оптимизация</li>
+              </ul>
+            </div>
+            <div class="tariff-user-price">2899 <span class="rub">₽</span></div>
+            <button href="#" class="button button--tariffs">
+              Приобрести
+              <img
+                src="/src/icons/arrow_right.svg"
+                alt="arrow"
+                class="tariffs__btn--margin"
+              />
+            </button>
+          </div>
           
         </div>
       </div>
