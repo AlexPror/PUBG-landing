@@ -1,0 +1,40 @@
+.contacts-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F5F9FF;
+    padding-bottom: 3rem;
+}
+
+.contacts-title {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    margin-top: 6rem;
+}
+
+.contacts-title-icon {
+    position: absolute;
+    top: -1rem;
+    left: 36.5%;
+}
+
+.contacts-form {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 644px;
+    height: 432px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0 15px 25px rgba(#000, 0.03);
+    padding: 2rem 2rem 2rem 3rem;
+}
+
+.contacts-btn {
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 198px;
+    height: 68px;
+}
