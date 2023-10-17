@@ -14,7 +14,7 @@
   margin: 1rem 2rem;
   background: #FFF;
   padding: 2rem 0 2rem 0;  
-  position: relative;
+  // position: relative;
 }
 
 .accordion-title {
@@ -41,21 +41,19 @@
   font-size: 1.1rem;
   font-weight: 600;
   cursor: pointer;
+  position: relative;
   
 
   &:before {
     content:url(../icons/faq/plus.svg);
-    width: 10px;
-    height: 10px;
-    top: 42%;
+    top: -31%;
     right: 2.5rem;
-    transform: translateY(-50%);
+    transform: translateY(-50%, -50%);
     position: absolute;
     transition: transform .5s ease;
   }  
 }
 .accordion-wrapper.active .accordion-label::before {
-  top: 19%;
   transform: rotate(45deg);
 }
 
@@ -77,7 +75,7 @@
 
 .accordion-wrapper.active .accordion-content {
   height: auto;
-  padding: 1rem;
+  padding: 2rem 0 2rem 0;
 }
 .accordeon-divider {
   width: 4rem;
