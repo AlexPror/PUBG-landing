@@ -13,8 +13,8 @@
   flex-direction: column;
   margin: 1rem 2rem;
   background: #FFF;
-  padding: 2.2rem 0 2rem 2rem;  
-
+  padding: 2rem 0 2rem 0;  
+  // position: relative;
 }
 
 .accordion-title {
@@ -35,39 +35,48 @@
 }
 
 .accordion-label {
-  border-radius: 5px;
+  width: 100%;
+  padding-left: 2rem;
   color: #2E3A59;
   font-size: 1.1rem;
   font-weight: 600;
-  width: 60rem;
-  height: 7px;
-  list-style: none;
   cursor: pointer;
   position: relative;
+  
 
   &:before {
-    content:url(/src/icons/faq/plus.svg);
-    top: 50%;
+    content:url(../icons/faq/plus.svg);
+    top: -31%;
     right: 2.5rem;
-    transform: translateY(-50%);
+    transform: translateY(-50%, -50%);
     position: absolute;
+    transition: transform .5s ease;
   }  
 }
+.accordion-wrapper.active .accordion-label::before {
+  transform: rotate(45deg);
+}
 
-.accordion-content {
+.accordion-wrapper .accordion-content {
   position: relative;
+  top: 105%;
+  left: 2%;
   height: 0;
   overflow: hidden;
   transition: 0.5s;
-  overflow-y: auto;
+  
   border-left: 0.1rem solid #0AA6FE;
   padding-left: 1rem;
   
-  .active & {
-    height: auto;
-  }
+  // .active & {
+  //   height: auto;
+  // }
 }
 
+.accordion-wrapper.active .accordion-content {
+  height: auto;
+  padding: 2rem 0 2rem 0;
+}
 .accordeon-divider {
   width: 4rem;
   height: 0.2rem;
